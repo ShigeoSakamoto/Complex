@@ -34,5 +34,6 @@ class ComplexSpec extends FlatSpec with DiagrammedAssertions {
 
   c1.pow(2).equal(c1.multiplication(c1))
   c2.pow(2).equal(c2.multiplication(c2))
+  c2.pow(3).equal(c2.multiplication(c2).multiplication(c2))
 
 }
